@@ -243,28 +243,28 @@ h2 {
     .alpaca1{
 
         position: absolute; top: 0; left: 0;
-        max-height: 20%;
+        max-height: 35%;
     
     }
     
     .alpaca2{
     
         position: absolute; top: 0; right: 0;
-        max-height: 20%;
+        max-height: 35%;
     
     }
     
     .alpaca3{
     
         position: absolute;  bottom: 0; left: 0;
-        max-height: 20%;
+        max-height: 35%;
     
     }
     
     .alpaca4{
     
         position: absolute;  bottom: 0; right: 0;
-        max-height: 20%;
+        max-height: 35%;
     
     }
 
@@ -272,7 +272,7 @@ h2 {
 
         position: absolute; top: 0; left: 0;
         margin-left: 20%;
-        max-height: 20%;
+        max-height: 35%;
     
     }
     
@@ -280,7 +280,7 @@ h2 {
     
         position: absolute; top: 0; right: 0;
         margin-right: 20%;
-        max-height: 20%;
+        max-height: 35%;
     
     }
     
@@ -288,7 +288,7 @@ h2 {
     
         position: absolute; bottom: 0; left: 0;
         margin-left: 20%;
-        max-height: 20%;
+        max-height: 35%;
     
     }
     
@@ -296,7 +296,7 @@ h2 {
     
         position: absolute; bottom: 0; right: 0;
         margin-right: 20%;
-        max-height: 20%;
+        max-height: 35%;
     
     }
 
