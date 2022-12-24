@@ -239,4 +239,65 @@ h2 {
  
 
     }
+
+    .alpaca1{
+
+        position: absolute; top: 0; left: 0;
+        max-height: 20%;
+    
+    }
+    
+    .alpaca2{
+    
+        position: absolute; top: 0; right: 0;
+        max-height: 20%;
+    
+    }
+    
+    .alpaca3{
+    
+        position: absolute;  bottom: 0; left: 0;
+        max-height: 20%;
+    
+    }
+    
+    .alpaca4{
+    
+        position: absolute;  bottom: 0; right: 0;
+        max-height: 20%;
+    
+    }
+
+    .finger1{
+
+        position: absolute; top: 0; left: 0;
+        margin-left: 20%;
+        max-height: 20%;
+    
+    }
+    
+    .finger2{
+    
+        position: absolute; top: 0; right: 0;
+        margin-right: 20%;
+        max-height: 20%;
+    
+    }
+    
+    .finger3{
+    
+        position: absolute; bottom: 0; left: 0;
+        margin-left: 20%;
+        max-height: 20%;
+    
+    }
+    
+    .finger4{
+    
+        position: absolute; bottom: 0; right: 0;
+        margin-right: 20%;
+        max-height: 20%;
+    
+    }
+
 }
