@@ -1,0 +1,242 @@
+body{
+
+    background: #13a0a0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+
+    background: #dfdfdf;
+    border-radius: 4px;
+    max-height: 95%;
+    width: 85vw;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
+    display: flex;
+    align-items: center;
+
+}
+
+img.birthday{
+
+    max-height: 90vh;
+    width: 40%;
+
+}
+
+.text{
+
+    text-align: right;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    line-height: 1rem;
+
+}
+
+h2 {
+
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.yes-btn{
+
+    padding: 10px;
+    font-weight: bold;
+    background-color: #eee;
+    color: #000;
+
+}
+
+.no-btn{
+
+    padding: 10px;
+    font-weight: bold;
+    background-color: #eee;
+    color: #000;
+
+}
+
+.buttons{
+
+    text-align: center;
+    padding-bottom: 10%;
+
+}
+
+.panda1{
+
+    position: absolute; top: 0; left: 0;
+    max-height: 60%;
+
+}
+
+.panda2{
+
+    position: absolute;  top: 0; right: 0;
+    max-height: 60%;
+
+}
+
+.panda3{
+
+    position: absolute;  bottom: 0; left: 0;
+    max-height: 90%;
+
+}
+
+.panda4{
+
+    position: absolute;  bottom: 0; right: 0;
+    max-height: 90%;
+
+}
+
+.panda5{
+
+    position: absolute;  bottom: 0; 
+    max-height: 90%;
+    margin-left: 35%;
+
+}
+
+
+.alpaca1{
+
+    position: absolute; top: 0; left: 0;
+    max-height: 50%;
+
+}
+
+.alpaca2{
+
+    position: absolute; top: 0; right: 0;
+    max-height: 50%;
+
+}
+
+.alpaca3{
+
+    position: absolute;  bottom: 0; left: 0;
+    max-height: 80%;
+
+}
+
+.alpaca4{
+
+    position: absolute;  bottom: 0; right: 0;
+    max-height: 80%;
+
+}
+
+
+
+.finger1{
+
+    position: absolute; top: 0; left: 0;
+    margin-left: 20%;
+    max-height: 90%;
+
+}
+
+.finger2{
+
+    position: absolute; top: 0; right: 0;
+    margin-right: 20%;
+    max-height: 90%;
+
+}
+
+.finger3{
+
+    position: absolute; bottom: 0; left: 0;
+    margin-left: 20%;
+    max-height: 90%;
+
+}
+
+.finger4{
+
+    position: absolute; bottom: 0; right: 0;
+    margin-right: 20%;
+    max-height: 90%;
+
+}
+
+.end1{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+@media only screen and (max-width: 1000px){
+
+    .card {
+
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+    }
+
+
+    img.birthday{
+
+        max-height: 100vh;
+        width: 40%;
+    
+    }
+
+    .text{
+
+        text-align: right;
+        padding-bottom: 2%;
+        padding-right: 3%;
+        
+    }
+
+    .panda1{
+
+        position: absolute; top: 0; left: 0;
+        max-height: 35%;
+
+    }
+
+    .panda2{
+
+        position: absolute; top: 0; right: 0;
+        max-height: 35%;
+
+    }
+
+    .panda3{
+
+        position: absolute; bottom: 0; left: 0;
+        max-height: 20%;
+
+
+    }
+
+    .panda4{
+
+        position: absolute; bottom: 0; right: 0;
+        max-height: 20%;
+
+    }
+
+    .panda5{
+
+        align-items: center;
+        max-height: 20%;
+        padding-right: 42%;
+ 
+
+    }
+}
